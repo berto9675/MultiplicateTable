@@ -16,7 +16,7 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        MultiplicateTableList table = new MultiplicateTable(5);
+        MultiplicateTableList table = new MultiplicateTableList(5);
         List<String> result = table.getTable();
         for (String line : result) {
             System.out.println(line);
